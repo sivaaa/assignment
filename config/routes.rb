@@ -1,4 +1,6 @@
 Assignment::Application.routes.draw do
+  resources :albums
+
   resources :artists
 
   # The priority is based upon order of creation:
